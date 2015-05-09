@@ -44,7 +44,7 @@ body {
   word-wrap: break-word; }
 
 .reveal h1 {
-  font-size: 2.5em; }
+  font-size: 2.5em;}
 
 .reveal h2 {
   font-size: 1.6em; }
@@ -223,6 +223,8 @@ body {
   background: rgba(255, 255, 255, 0.2);
   border-color: #42affa;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.55); }
+ 
+.reveal section img.nostyle{margin:0; border:0; box-shadow:none; background:none}
 
 /*********************************************
  * NAVIGATION CONTROLS
@@ -268,3 +270,18 @@ body {
  *********************************************/
 .reveal .slide-number {
   color: #42affa; }
+  
+/*********************************************
+ * GUISELLA
+ *********************************************/
+@-webkit-keyframes beating {
+    0% {width: 80%;}
+    50% {width:85%}
+	100% {width:80%}
+}
+
+#heart {
+    -webkit-animation-name: beating;
+	-webkit-animation-duration: 1s;
+    -webkit-animation-iteration-count: infinite;
+}
