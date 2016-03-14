@@ -1,10 +1,13 @@
+bg = new BackgroundLayer 
+	backgroundColor: "#222A38"
+
 circleA = new Layer
 	backgroundColor: "#00A967",
 	width: 25, height: 25,
 	borderRadius: 50
 	
 circleB = new Layer
-	backgroundColor: "#222A38",
+	backgroundColor: "#FFF",
 	width: 25, height: 25,
 	borderRadius: 50
 	
