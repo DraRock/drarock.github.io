@@ -54,9 +54,9 @@ window.__imported__["PICI-Loader/layers.json.js"] = [
   }
 ]
 if (typeof(DeviceComponent) !== "undefined") {DeviceComponent.Devices["iphone-6-silver"].deviceImageJP2 = false};
-window.Framer.Defaults.DeviceView = {"deviceScale":"fit","selectedHand":"","deviceType":"desktop-safari-1440-900","contentScale":1,"orientation":0};
+window.Framer.Defaults.DeviceView = {"deviceScale":1,"selectedHand":"","deviceType":"fullscreen","contentScale":1,"orientation":0};
 
-window.Framer.Defaults.DeviceComponent = {"deviceScale":"fit","selectedHand":"","deviceType":"desktop-safari-1440-900","contentScale":1,"orientation":0};
+window.Framer.Defaults.DeviceComponent = {"deviceScale":1,"selectedHand":"","deviceType":"fullscreen","contentScale":1,"orientation":0};
 
 window.FramerStudioInfo = {"deviceImagesUrl":"\/_server\/resources\/DeviceImages","documentTitle":"PICI-Loader.framer"};
 
