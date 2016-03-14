@@ -1,11 +1,11 @@
 circleA = new Layer
 	backgroundColor: "#00A967",
-	width: 30, height: 30,
+	width: 25, height: 25,
 	scale: 1, borderRadius: 50
 	
 circleB = new Layer
 	backgroundColor: "#222A38",
-	width: 30, height: 30,
+	width: 25, height: 25,
 	scale: 1, borderRadius: 50
 	
 circleA.center()
@@ -45,7 +45,7 @@ animCircleAOut.on "end", ->
 animCircleBIn = new Animation
 	layer: circleB
 	properties: 
-		x: circleB.x - 35
+		x: circleB.x - 30
 	curve: "ease-in-out"
 	time: 0.5
 
