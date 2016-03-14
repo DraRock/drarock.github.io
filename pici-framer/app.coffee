@@ -15,14 +15,14 @@ circleA.center()
 circleB.center()
 circleA.x -= 20
 circleB.x += 20
-circleA.z = 1
-circleB.z = 2
+circleA.index = 1
+circleB.index = 2
 
 animCircleAIn = new Animation
 	layer: circleA
 	properties: 
 		x: circleA.x + 35
-		z: 1
+		index: 1
 	curve: "ease-in-out"
 	time: 0.5
 
@@ -30,17 +30,17 @@ animCircleAOut = new Animation
 	layer: circleA
 	properties: 
 		x: circleA.x 
-		z: 3
+		index: 3
 	curve: "ease-in-out"
 	time: 0.5
 	
 animCircleAIn.start()
 
 animCircleAIn.on "end", ->
-		circleA.z = 3
+		circleA.index = 3
  	animCircleAOut.start()
 animCircleAOut.on "end", ->
-		circleA.z = 1
+		circleA.index = 1
  	animCircleAIn.start()
 
 #Circle B Animation
